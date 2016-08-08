@@ -76,7 +76,7 @@
 
     for (UITabBarItem *item in self.tabBar.items)//选项卡 字体颜色
     {
-        //设置选中的图拼啊
+        //设置选中的图片
         [item setSelectedImage:[[UIImage imageNamed:[dicSelect objectForKey:item.title]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
         //设置默认的图片
         [item setImage:[[UIImage imageNamed:[dicDefault objectForKey:item.title]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
